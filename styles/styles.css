@@ -1,0 +1,434 @@
+.main {
+    max-width: 940px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    color: gray;
+}
+
+body {
+    background-image: url('../pages/bg.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.topmenu {
+    background: black;
+    background-image: url('../pages/hornav.png');
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.topmenu>div {
+    float: left;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: gray;
+}
+
+.menutitle {
+    font-size: 15px;
+}
+
+.menutitle~div {
+    font-size: 20px;
+}
+
+.labelimg img {
+    max-width: 940px;
+}
+
+.dop {
+    background-color: #111;
+    text-align: left;
+    font-size: 20px;
+    color: gray;
+    padding: 10px;
+}
+
+.r1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.r1 img {
+    width: 940px;
+}
+
+.r2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: black;
+    color: #FFFF00;
+    font-size: 16px;
+    padding: 20px;
+    text-align: center;
+}
+
+.r21 {
+    font-size: 14px;
+}
+
+.aos1,
+.aos2 {
+    float: left;
+    width: 33%;
+}
+
+.adcontent {
+    background: black;
+    color: gray;
+}
+
+.all {
+    font-size: 30px;
+    border-style: solid;
+    border-color: wheat;
+    border-width: 2px;
+    border-top-width: 0px;
+}
+
+.all span {
+    font-size: 35px;
+    color: red;
+}
+
+.aos1,
+.aos2,
+.aos3 {
+    font-size: 50px;
+    border-style: solid;
+    border-color: wheat;
+    border-width: 2px;
+}
+
+.all:hover {
+    color: yellow;
+    font-size: 35px;
+}
+
+.aos1:hover,
+.aos2:hover,
+.aos3:hover {
+    color: yellow;
+    font-size: 51px;
+}
+
+.content {
+    float: left;
+    max-width: 600px;
+}
+
+.reklama {
+    float: left;
+    max-width: 340px;
+}
+
+.posl {
+    background-image: url('../pages/hornav.png');
+    background-color: #060708;
+    background-repeat: repeat-x;
+    font-size: 25px;
+    text-align: left;
+    padding: 7px;
+    border: rgba(255, 255, 255, 0.301) 1px;
+    border-style: solid;
+}
+
+.ser1 img {
+    height: 358px;
+    width: 580px;
+    border: 10px #FFFFFF;
+    border-style: solid;
+}
+
+.imgser img {
+    -webkit-box-shadow: 6px 11px 28px 4px rgba(0, 0, 0, 0.77);
+    -moz-box-shadow: 6px 11px 28px 4px rgba(0, 0, 0, 0.77);
+    box-shadow: 6px 11px 28px 4px rgba(0, 0, 0, 0.77);
+    border: 2px solid #FFFFFF;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.imgser {
+    background-color: #FFFFFF;
+    float: none;
+    overflow: hidden;
+}
+
+.imgser figure {
+    width: 32%;
+    margin: 4px;
+}
+
+.s7,
+.s6,
+.s5 {
+    float: left;
+    margin-top: 15px;
+}
+
+.ots {
+    background-color: #FFFFFF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.osntext {
+    background-color: #FFFFFF;
+    padding-top: 21px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.otext {
+    -webkit-box-shadow: 6px 11px 28px 4px rgba(0, 0, 0, 0.77);
+    -moz-box-shadow: 6px 11px 28px 4px rgba(0, 0, 0, 0.77);
+    box-shadow: 6px 11px 28px 4px rgba(0, 0, 0, 0.77);
+    padding: 10px;
+}
+
+.title {
+    background-image: url('../pages/hornav.png');
+    background-color: #060708;
+    background-repeat: repeat-x;
+    font-size: 25px;
+    color: gray;
+    background-color: #000000;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 7px;
+    border: rgba(255, 255, 255, 0.301) 1px;
+    border-style: solid;
+}
+
+.rcontent {
+    background-color: #FFFFFF;
+    margin-left: 10px;
+    height: 200px;
+}
+
+.recontent {
+    background-color: #FFFFFF;
+    font-size: 70px;
+    margin-left: 10px;
+}
+
+.alert {
+    display: none;
+    width: 52%;
+    height: 52vh;
+    background: white;
+    position: fixed;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 5;
+    text-align: center;
+    padding: 10px;
+}
+
+.alert img {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.empty-layer {
+    display: none;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+}
+
+.re {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.r1content {
+    background-color: #FFFFFF;
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+A:visited {
+    color: #808080
+}
+
+A:active {
+    color: #808080
+}
+
+.topmenu>div:hover>A {
+    color: yellow;
+}
+
+.topmenu div:hover {
+    color: yellow;
+}
+
+.tm {
+    padding-top: 10px;
+    padding-right: 14px;
+    padding-bottom: 10px;
+    padding-left: 14px;
+}
+
+.t1sez {
+    background: black;
+    background-image: url('../pages/hornav.png');
+    text-align: left;
+    font-size: 18px;
+    color: #D6D6D6;
+    padding: 8px 10px 10px 8px;
+    margin-top: -10px;
+    margin-right: -10px;
+    margin-bottom: 10px;
+    margin-left: -10px;
+}
+
+.osntext1 {
+    margin-top: 10px;
+    background-color: #FFFFFF;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.otext1 {
+    border: 1px black solid;
+    text-align: left;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 6px 11px 28px 4px rgba(0, 0, 0, 0.77);
+    -moz-box-shadow: 6px 11px 28px 4px rgba(0, 0, 0, 0.77);
+    box-shadow: 6px 11px 28px 4px rgba(0, 0, 0, 0.77);
+    padding: 10px;
+}
+
+.s1s {
+    border-bottom: 1px solid #e5e5e5;
+    overflow: hidden;
+    height: 40px;
+    line-height: 40px;
+    margin: -10px -10px 10px;
+    padding: 0 10px;
+}
+
+.left {
+    text-align: left;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.s1sez {
+    margin-top: 10px;
+    background-color: #FFFFFF;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.left1 {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.left2 {
+    margin-right: 10px;
+    padding-right: 15px;
+    background: url(../pages/breadcrumbs.png) 100% 50% no-repeat;
+}
+
+.left2 a {
+    color: #0D7ACF;
+}
+
+.left3 {
+    color: #666;
+}
+
+.vs1sez {
+    box-shadow: 1px 5px 10px #0F0F0F;
+    background: whitesmoke;
+    margin: 0 10px 10px 10px;
+    padding: 0 10px 10px 10px;
+    overflow: hidden;
+}
+
+.imgsez1 figure {
+    width: 48%;
+    margin: 4px;
+}
+
+.s1s1,
+.s1s2,
+.s1s3,
+.s1s4,
+.s1s5,
+.s1s6,
+.s1s7,
+.s1s8,
+.s1s9,
+.s1s10 {
+    float: left;
+    margin: 15px;
+}
+
+.st {
+    text-align: center;
+    color: #0D7ACF;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    font-weight: normal;
+}
+
+.imgsez1 figure img {
+    margin-top: 10px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    margin-left: 0px;
+    box-shadow: 1px 5px 10px #0F0F0F;
+    border: 5px solid whitesmoke;
+}
+
+.reks7 {
+    height: 320px;
+    width: 810px;
+    padding: 0 48px;
+    background: #f5f5f5;
+}
+
+.house {
+    height: auto;
+    width: auto;
+    background: #d0d0d0;
+    vertical-align: baseline;
+}
+
+area:focus {
+    border: none;
+    outline-style: none;
+    -moz-outline-style: none;
+}
